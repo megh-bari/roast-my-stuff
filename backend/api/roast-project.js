@@ -7,11 +7,7 @@ require('dotenv').config();
 const corsMiddleware = cors({
   origin: [
     "http://localhost:5173",
-<<<<<<< HEAD
    "https://roast-my-stuff-frontend.vercel.app",
-=======
-   "https://roast-my-stuff-hackarthon.vercel.app",
->>>>>>> 58dc1aa7036ce4e1d2e3825b563ec05f547cc3d9
   ],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
