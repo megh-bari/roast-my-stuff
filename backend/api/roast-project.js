@@ -74,7 +74,7 @@ module.exports = async (req, res) => {
           { role: "system", content: systemPrompt },
           { role: "user", content: userPrompt },
         ],
-        max_tokens: 2048,
+        max_tokens: 1024,
         response_format: { type: "json_object" },
       },
       {
