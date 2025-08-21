@@ -69,12 +69,12 @@ module.exports = async (req, res) => {
     const response = await axios.post(
       OPENROUTER_API_URL,
       {
-        model: "google/gemini-2.0-flash-lite-preview-02-05:free",
+        model: "z-ai/glm-4.5-air:free",
         messages: [
           { role: "system", content: systemPrompt },
           { role: "user", content: userPrompt },
         ],
-        max_tokens: 1024,
+        max_tokens: 2048,
         response_format: { type: "json_object" },
       },
       {
