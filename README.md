@@ -5,7 +5,7 @@
 
 ## 🔗 Preview: https://roast-my-stuff-hackarthon.vercel.app/
 
-## 🎯 Features
+## 🎯 Features:
 **Upload & Roast** – Users upload their resume, GitHub repo, or portfolio link for instant roasting.
 **Humor + Learning** – AI mixes witty critiques with real, actionable feedback.
 **Roast Levels** – Choose from *Mild, Spicy, or Extra Burn* 🔥🔥🔥.
